@@ -34,7 +34,7 @@ nav{
 .main{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/boy.jpg) 90% 100%/auto 85% no-repeat, url(../img/bgd.jpg) center/cover no-repeat;
+	background: url(../img/boy.jpg) 80% 90%/auto 85% no-repeat, url(../img/bgd.jpg) center/cover no-repeat;
 }
 
 .title_conteiner{
@@ -196,10 +196,11 @@ nav{
 }
 
 .keys_item_d{
+	float: left;
 	display: block;
 	margin-top: 30px;
-	margin-left: 80px;
-	width: 1080px;
+	margin-left: 165px;
+	width: 800px;
 }
 
 .keys_item_d h3{
@@ -208,7 +209,7 @@ nav{
 }
 
 .keys_item_d p{
-	padding-top: 20px;
+	padding-top: 50px;
 }
 
 .clear{
@@ -234,21 +235,15 @@ nav{
 }
 
 .statistic_item {
+	margin-left: 347px;
 	margin-top: 20px;
 	float: left;
-	width: 230px;
 	text-align: center;
 }
 
-.statistic_item img{
-	margin: 35px;
-}
 .statistic_item h3{
 	font-weight: bold;
 	margin: 10px;
 	color: #cf7600;
 }
 
-.statistic_item p{
-	margin: 15px;
-}
