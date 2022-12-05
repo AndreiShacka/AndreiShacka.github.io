@@ -172,40 +172,50 @@ nav{
 	margin-left: 275px;
 }
 
-.keys_item_c h3{
-	margin-top: 20px;
-	font-weight: bold;
+.keys_item_c{
+	float: left;
 	margin-left: 275px;
+}
+
+.keys_item_c h3{
+	margin-top: 30px;
+	font-weight: bold;
 }
 
 .keys_item_c p{
-	margin-left: 275px;
-}
-
-.keys_item_c a{
-	margin-left: 275px;
+	margin-top: 10px;
 }
 
 .keys_item_c input{
-	float: left;
+	display: block;
+	padding: 16px;
+	border-radius: 7%;
+	margin-top: 25px;
 	color: #fff;
 	background: #63b5ae;
-	margin-left: 275px;
-	margin-top: 20px;
-	border-radius: 10%;
+}
+
+.keys_item_d{
+	display: block;
+	margin-top: 30px;
+}
+
+.keys_item_d h3{
+	font-weight: bold;
+
+}
+
+.keys_item_d p{
 }
 
 .clear{
 	clear: left;
 }
 
-.statistic_item {
-	margin-top: 20px;
-	float: left;
-	width: 230px;
-	text-align: center;
+.statistic_conteiner{
+	width: 1260px;
+	margin: 0 auto;
 }
-
 .statistic_conteiner h2{
 	font-weight: bold;
 	text-align: center;
@@ -220,8 +230,15 @@ nav{
 	padding-bottom: 22px;
 }
 
-.statistic_item{
-	margin-left: 100px;
+.statistic_item {
+	margin-top: 20px;
+	float: left;
+	width: 230px;
+	text-align: center;
+}
+
+.statistic_item img{
+	margin: 35px;
 }
 .statistic_item h3{
 	font-weight: bold;
@@ -230,9 +247,5 @@ nav{
 }
 
 .statistic_item p{
-	margin: 20px;
-}
-
-.clear{
-	clear: left;
+	margin: 15px;
 }
