@@ -9,7 +9,7 @@ nav{
 }
 
 .logo{
-	font-size: 20px;
+	font-size: 13px;
 	line-height: 60px;
 	padding-left: 350px;
 	float: left;
@@ -19,22 +19,22 @@ nav{
 
 .menu{
 	float: left;
-	padding-left: 250px;
+	padding-left: 190px;
 }
 
 .menu ul li{
 	color: #fff;
 	float: left;
 	line-height: 60px;
-	font-size: 16px;
+	font-size: 13px;
 	text-transform: uppercase;
-	padding-left: 60px;
+	padding-left: 45px;
 }
 
 .main{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/boy.jpg) 80% 90%/auto 85% no-repeat, url(../img/bgd.jpg) center/cover no-repeat;
+	background: url(../img/boy.jpg) 90% 80%/auto 80% no-repeat, url(../img/bgd.jpg) center/cover no-repeat;
 }
 
 .title_conteiner{
@@ -68,11 +68,13 @@ nav{
 }
 
 .about_me {
+	margin-top: 35px;
 	width: 734px;
 	margin: 10px auto;
 }
 
 .about_me_conteiner h2{
+	margin-top: 110px;
 	margin: 0 auto;
 	font-size: 30px;
 	font-weight: bold;
@@ -91,7 +93,7 @@ nav{
 	display: block;
 	margin: 0 auto;
 	border-radius: 50%;
-	padding-top: 20px;
+	padding-top: 15px;
 }
 
 .about_me_conteiner p{
@@ -102,14 +104,16 @@ nav{
 }
 
 .about_me_conteiner a{
-	text-align: center;
+	margin-left: 315px;
+	padding-bottom: 20px;
 }
 
 .skills_conteiner{
-	width: 960px;
+	width: 710px;
 	margin: 0 auto;
 }
 .skills_conteiner h2{
+	margin-top: 90px;
 	font-weight: bold;
 	text-align: center;
 	font-size: 22px;
@@ -126,7 +130,7 @@ nav{
 .skills_item {
 	margin-top: 20px;
 	float: left;
-	width: 230px;
+	width: 174px;
 	text-align: center;
 }
 
@@ -141,6 +145,15 @@ nav{
 
 .skills_item p{
 	margin: 15px;
+}
+
+.clear{
+	clear: left;
+}
+
+
+.keys_conteiner{
+	margin-top: 60px;
 }
 
 .keys_item{
@@ -164,17 +177,17 @@ nav{
 
 .keys_item_h p{
 	margin-top: 20px;
-	margin-left: 475px;
+	margin-left: 400px;
 }
 
 .keys_item_h img{
 	margin-top: 20px;
-	margin-left: 275px;
+	margin-left: 190px;
 }
 
 .keys_item_c{
 	float: left;
-	margin-left: 275px;
+	margin-left: 200px;
 }
 
 .keys_item_c h3{
@@ -188,7 +201,9 @@ nav{
 
 .keys_item_c input{
 	display: block;
-	padding: 12px;
+	padding: 10px;
+	padding-left: 29px;
+	padding-right: 29px;
 	border-radius: 7%;
 	margin-top: 25px;
 	color: #fff;
@@ -199,7 +214,7 @@ nav{
 	float: left;
 	display: block;
 	margin-top: 30px;
-	margin-left: 165px;
+	margin-left: 145px;
 	width: 800px;
 }
 
@@ -209,41 +224,203 @@ nav{
 }
 
 .keys_item_d p{
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 .clear{
 	clear: left;
 }
 
-.statistic_conteiner{
-	width: 1260px;
-	margin: 0 auto;
+
+
+.cash_conteiner{
+	margin-top: 60px;
 }
-.statistic_conteiner h2{
-	font-weight: bold;
+
+.cash_item_h h2{
 	text-align: center;
-	font-size: 22px;
-	margin: 10px auto;
+	font-size: 23px;
+	font-weight: bold;
+	color: #344051;
+}
+
+.cash_item_d h3{
+	margin-left: 337px;
+	font-weight: bold;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+
+.cash_item_d input{
+	margin-left: 335px;
+	width: 800px;
+	padding: 12px;
+	background: #eeeeee;
+}
+
+.cash_item_d select{
+	padding: 12px;
+	background: #eeeeee;
+}
+.clear{
+	clear: left;
+}
+
+.statistic{
+	margin-top: 100px;
+}
+
+.statistic_conteiner h2{
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	color: #344051;
 }
 
 .statistic_conteiner hr{
-	border-bottom: 5px solid #d17700;
 	margin: 0 auto;
 	width: 60px;
-	padding-bottom: 22px;
+	padding-bottom: 25px;
+	border-bottom: 5px solid #d17700;
 }
 
 .statistic_item {
-	margin-left: 347px;
+	margin-left: 225px;
 	margin-top: 20px;
 	float: left;
 	text-align: center;
+	width: 90px;
 }
 
+.statistic_item img{
+	margin: 35px;
+}
 .statistic_item h3{
 	font-weight: bold;
 	margin: 10px;
 	color: #cf7600;
 }
+
+
+.clear {
+	clear: left;
+}
+
+
+.reviev{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.reviev h2{
+	color: #344051;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.reviev hr{
+	margin: 0 auto;
+	width: 60px;
+	border-bottom: 5px solid #d17700;
+	padding-bottom: 22px;
+}
+
+.reviev img{
+	margin-top: 20px;
+	width: 180px;
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+
+.reviev p{
+	margin-top: 20px;
+}
+
+
+
+.mycontact{
+	height: 555px;
+	margin-top: 100px;
+	background: url(../img/contact.jpg) center/cover no-repeat;
+}
+
+.mycont_conteiner{
+	width: 800px;
+	text-align: center;
+}
+
+.mycontact_item_h h2{
+	margin-top: 30px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mycontact_item_h hr{
+	margin: 0 auto;
+	width: 60px;
+	border-bottom: 5px solid #d17700;
+	padding-bottom: 30px;
+}
+
+.mycontact_item_h p{
+	color: #fff;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.adress_conteiner{
+	color: #fff;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	width: 734px;
+	margin: 0 auto;
+}
+.adress_item{
+	margin-left: 460px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+}
+
+.clear{
+	clear: left;
+}
+
+.message_conteiner{
+	margin-left: 470px;
+}
+
+.button1{
+	width: 250px;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+.button2{
+	width: 250px;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+.button3{
+	margin-left: 30px;
+	width: 533px;
+	margin-top: 15px;
+	padding: 10px;
+	padding-bottom: 80px;
+	overflow: scroll;
+}
+
+
+.button4{
+	margin-top: 20px;
+	margin-left: 250px;
+	display: block;
+	border: 10%;
+	padding: 15px 15px;
+}
+
 
