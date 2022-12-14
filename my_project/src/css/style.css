@@ -285,26 +285,12 @@ nav{
 }
 
 .statistic_item {
-	margin-left: 225px;
+	margin-left: 120px;
 	margin-top: 20px;
 	float: left;
 	text-align: center;
-	width: 90px;
 }
 
-.statistic_item img{
-	margin: 35px;
-}
-.statistic_item h3{
-	font-weight: bold;
-	margin: 10px;
-	color: #cf7600;
-}
-
-
-.clear {
-	clear: left;
-}
 
 
 .reviev{
