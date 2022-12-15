@@ -74,7 +74,7 @@ nav{
 }
 
 .about_me_conteiner h2{
-	margin-top: 110px;
+	padding-top: 40px;
 	margin: 0 auto;
 	font-size: 30px;
 	font-weight: bold;
@@ -109,7 +109,7 @@ nav{
 }
 
 .skills_conteiner{
-	width: 710px;
+	width: 840px;
 	margin: 0 auto;
 }
 .skills_conteiner h2{
@@ -130,7 +130,7 @@ nav{
 .skills_item {
 	margin-top: 20px;
 	float: left;
-	width: 174px;
+	width: 215px;
 	text-align: center;
 }
 
@@ -235,6 +235,7 @@ nav{
 
 .cash_conteiner{
 	margin-top: 60px;
+	padding-bottom: 40px;
 }
 
 .cash_item_h h2{
@@ -267,7 +268,9 @@ nav{
 }
 
 .statistic{
-	margin-top: 100px;
+	height: 390px;
+	padding-top: 45px;
+	background: url(../img/key.jpg) center/cover no-repeat;
 }
 
 .statistic_conteiner h2{
@@ -285,19 +288,21 @@ nav{
 }
 
 .statistic_item {
-	margin-top: 20px;
+	margin-top: 50px;
 	float: left;
 	width: 174px;
 	text-align: center;
+	padding: 30px;
 }
 
 .statistic_item img{
 	margin: 15px;
 }
-..statistic_item h3{
+.statistic_item h3{
+	font-size: 22px;
 	font-weight: bold;
-	margin: 9px;
-	color: #cf7600;
+	font-weight: bold;
+	color: #344051;
 }
 
 .statistic_item p{
@@ -316,6 +321,7 @@ nav{
 .reviev{
 	margin-top: 100px;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .reviev h2{
@@ -345,13 +351,13 @@ nav{
 
 
 .mycontact{
-	height: 555px;
-	margin-top: 100px;
+	height: 690px;
+	padding-top: 10px;
 	background: url(../img/contact.jpg) center/cover no-repeat;
 }
 
 .mycont_conteiner{
-	width: 800px;
+	width: 810px;
 	text-align: center;
 }
 
@@ -376,19 +382,25 @@ nav{
 	text-align: center;
 }
 
-.adress_conteiner{
-	color: #fff;
+.adress_item {
+	margin-top: 5px;
 	float: left;
+	width: 174px;
 	text-align: center;
-	margin-top: 40px;
-	width: 734px;
-	margin: 0 auto;
+	padding: 25px;
 }
-.adress_item{
-	margin-left: 460px;
-	margin-top: 20px;
-	float: left;
-	text-align: center;
+
+.adress_item img{
+	margin: 25px;
+}
+
+.adress_item p{
+	color: #fff;
+	margin: 2px;
+}
+
+.new_adress_item{
+	margin-left: 500px;
 }
 
 .clear{
@@ -423,7 +435,7 @@ nav{
 
 .button4{
 	margin-top: 20px;
-	margin-left: 250px;
+	margin-left: 245px;
 	display: block;
 	border: 10%;
 	padding: 15px 15px;
