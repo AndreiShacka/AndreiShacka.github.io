@@ -246,21 +246,17 @@ nav{
 }
 
 .cash_item_d h3{
-	margin-left: 337px;
+	margin-left: 350px;
 	font-weight: bold;
 	margin-top: 40px;
 	padding-bottom: 10px;
 }
 
-.cash_item_d input{
-	margin-left: 335px;
-	width: 800px;
-	padding: 12px;
-	background: #eeeeee;
-}
 
 .cash_item_d select{
-	padding: 12px;
+	margin-left: 350px;
+	width: 800px;;
+	padding: 16px;
 	background: #eeeeee;
 }
 .clear{
@@ -437,7 +433,7 @@ nav{
 	margin-top: 20px;
 	margin-left: 245px;
 	display: block;
-	border: 10%;
+	border-radius: %;
 	padding: 15px 15px;
 }
 
