@@ -108,12 +108,17 @@ nav{
 	padding-bottom: 20px;
 }
 
+.skills{
+	background: url(../img/can.jpg) center/cover no-repeat;
+	height: 374px;
+}
 .skills_conteiner{
 	width: 840px;
 	margin: 0 auto;
 }
 .skills_conteiner h2{
 	margin-top: 90px;
+	padding-top: 40px;
 	font-weight: bold;
 	text-align: center;
 	font-size: 22px;
@@ -258,6 +263,11 @@ nav{
 	width: 800px;;
 	padding: 16px;
 	background: #eeeeee;
+}
+
+.cash_item_d hr{
+	width: 250px;
+	border-bottom: 4px solid #000;
 }
 .clear{
 	clear: left;
