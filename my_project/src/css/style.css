@@ -34,7 +34,7 @@ nav{
 .main{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/boy.jpg) 90% 80%/auto 80% no-repeat, url(../img/bgd.jpg) center/cover no-repeat;
+	background: url(../img/boy.jpg) 90% 80%/auto 85% fixed no-repeat, url(../img/bgd.jpg) center/cover fixed no-repeat;
 }
 
 .title_conteiner{
@@ -68,32 +68,38 @@ nav{
 }
 
 .about_me {
-	margin-top: 35px;
 	width: 734px;
 	margin: 10px auto;
 }
 
 .about_me_conteiner h2{
-	padding-top: 40px;
+	padding-top: 30px;
 	margin: 0 auto;
-	font-size: 30px;
+	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
 	padding-bottom: 22px;
 	color: #344051;
 }
 
-.about_me_conteiner hr{
+.about_me_conteiner h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
 	border-bottom: 5px solid #d17700;
 	margin: 0 auto;
+	height: 15px;
 	width: 60px;
+	transition: scaleX(0);
 }
 
 .about_me_conteiner img{
 	display: block;
 	margin: 0 auto;
+	margin-top: 20px;
+	width: 180px;
 	border-radius: 50%;
-	padding-top: 15px;
+	margin-bottom: 30px;
 }
 
 .about_me_conteiner p{
@@ -105,11 +111,16 @@ nav{
 
 .about_me_conteiner a{
 	margin-left: 315px;
-	padding-bottom: 20px;
+	padding: 5px;
+	color: #fff;
+	border: 3px solid #eeeeee;
+	border-radius: 20px;
+	background: white;
 }
 
 .skills{
-	background: url(../img/can.jpg) center/cover no-repeat;
+	margin-top: 40px;
+	background: url(../img/can.jpg) center/cover fixed no-repeat;
 	height: 374px;
 }
 .skills_conteiner{
@@ -117,7 +128,7 @@ nav{
 	margin: 0 auto;
 }
 .skills_conteiner h2{
-	margin-top: 90px;
+	margin-top: 50px;
 	padding-top: 40px;
 	font-weight: bold;
 	text-align: center;
@@ -125,11 +136,15 @@ nav{
 	margin: 10px auto;
 }
 
-.skills_conteiner hr{
+.skills_conteiner h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
 	border-bottom: 5px solid #d17700;
 	margin: 0 auto;
+	height: 15px;
 	width: 60px;
-	padding-bottom: 22px;
+	transition: scaleX(0);
 }
 
 .skills_item {
@@ -158,7 +173,7 @@ nav{
 
 
 .keys_conteiner{
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .keys_item{
@@ -173,11 +188,15 @@ nav{
 	text-align: center;
 }
 
-.keys_item_h hr{
+.keys_item_h h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
 	border-bottom: 5px solid #d17700;
 	margin: 0 auto;
+	height: 15px;
 	width: 60px;
-	padding-bottom: 22px;
+	transition: scaleX(0);
 }
 
 .keys_item_h p{
@@ -250,6 +269,17 @@ nav{
 	color: #344051;
 }
 
+.cash_item_h h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
+	border-bottom: 5px solid #d17700;
+	margin: 0 auto;
+	height: 15px;
+	width: 60px;
+	transition: scaleX(0);
+}
+
 .cash_item_d h3{
 	margin-left: 350px;
 	font-weight: bold;
@@ -265,18 +295,16 @@ nav{
 	background: #eeeeee;
 }
 
-.cash_item_d hr{
-	width: 250px;
-	border-bottom: 4px solid #000;
-}
 .clear{
 	clear: left;
 }
 
+
+
 .statistic{
 	height: 390px;
-	padding-top: 45px;
-	background: url(../img/key.jpg) center/cover no-repeat;
+	padding-top: 25px;
+	background: url(../img/key.jpg) center/cover fixed no-repeat;
 }
 
 .statistic_conteiner h2{
@@ -286,11 +314,15 @@ nav{
 	color: #344051;
 }
 
-.statistic_conteiner hr{
-	margin: 0 auto;
-	width: 60px;
-	padding-bottom: 25px;
+.statistic_conteiner h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
 	border-bottom: 5px solid #d17700;
+	margin: 0 auto;
+	height: 15px;
+	width: 60px;
+	transition: scaleX(0);
 }
 
 .statistic_item {
@@ -306,7 +338,6 @@ nav{
 }
 .statistic_item h3{
 	font-size: 22px;
-	font-weight: bold;
 	font-weight: bold;
 	color: #344051;
 }
@@ -325,7 +356,7 @@ nav{
 
 
 .reviev{
-	margin-top: 100px;
+	margin-top: 30px;
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -336,18 +367,22 @@ nav{
 	font-weight: bold;
 }
 
-.reviev hr{
-	margin: 0 auto;
-	width: 60px;
+.reviev h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
 	border-bottom: 5px solid #d17700;
-	padding-bottom: 22px;
+	margin: 0 auto;
+	height: 15px;
+	width: 60px;
+	transition: scaleX(0);
 }
 
 .reviev img{
 	margin-top: 20px;
 	width: 180px;
 	border-radius: 50%;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .reviev p{
@@ -359,7 +394,7 @@ nav{
 .mycontact{
 	height: 690px;
 	padding-top: 10px;
-	background: url(../img/contact.jpg) center/cover no-repeat;
+	background: url(../img/contact.jpg) center/cover fixed no-repeat;
 }
 
 .mycont_conteiner{
@@ -375,11 +410,15 @@ nav{
 	text-align: center;
 }
 
-.mycontact_item_h hr{
-	margin: 0 auto;
-	width: 60px;
+.mycontact_item_h h2::after{
+	content: "";
+	display: block;
+	padding-top: 30px;
 	border-bottom: 5px solid #d17700;
-	padding-bottom: 30px;
+	margin: 0 auto;
+	height: 15px;
+	width: 60px;
+	transition: scaleX(0);
 }
 
 .mycontact_item_h p{
@@ -443,7 +482,7 @@ nav{
 	margin-top: 20px;
 	margin-left: 245px;
 	display: block;
-	border-radius: %;
+	border-radius: 8px;
 	padding: 15px 15px;
 }
 
