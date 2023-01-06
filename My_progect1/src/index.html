@@ -1,109 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
+	<meta name="description" content="Это моя первая страница...">
+    <meta name="author" content="Andrey">
+    <meta name="robots" content="all">
+    <meta property="og:title" content="Это моя первая страница...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Андрей Ковзало</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/myAnimation.css">
+
 </head>
+
 <body>
-	<div class="cash">
-    	<div class="cash_conteiner">
-    	<div class="cash_item_h">
-    		<h2>Расчёт стоимости</h2>
-    	</div>
-    	<div class="cash_item_d">
-    		<h3>ТИП САЙТА</h3>
-    		<input type="text" value="" placeholder="Выберите пункт">
-    		<select name="list1">
-    			<option value="option1"></option>
-    			<option value="option2"></option>
-    			<option value="option3"></option>
-    		</select>
-    		<h3>ДИЗАЙН</h3>
-    		<input type="text" value="" placeholder="Выберите пункт">
-    		<select name="list2">
-    			<option value="option1"></option>
-    			<option value="option2"></option>
-    			<option value="option3"></option>
-    		</select>
-    		<h3>АДАПТИВНОСТЬ</h3>
-    		<input type="text" value="" placeholder="Выберите пункт">
-    		<select name="list3">
-    			<option value="option1"></option>
-    			<option value="option2"></option>
-    			<option value="option3"></option>
-    		</select>
-    	</div>
-    	</div>
-    </div>
 
-    <div class="statistic">
-    	<div class="statistic_conteiner">
-    		<h2>НЕМНОГО СТАТИСТИКИ</h2>
-    		<hr>
-    	</div>
-    	<div class="statistic_item">
-    		<img src="img/smile.png">
-    		<h3>120</h3>
-    		<p>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
-    	</div>
-    	<div class="statistic_item">
-    		<img src="img/hours.png">
-    		<h3>4600</h3>
-    		<p>ЧАСОВ РАБОТЫ</p>
-    	</div>
-    	<div class="statistic_item">
-    		<img src="img/job.png">
-    		<h3>340</h3>
-    		<p>ПРОЕКТОВ ЗАВЕРШЕНО</p>
-    	</div>
-    	<div class="statistic_item">
-    		<img src="img/cup.png">
-    		<h3>23</h3>
-    		<p>ПРОЕКТОВ ЗАВЕРШЕНО</p>
-    	</div>
-    	<div class="clear"></div>
-    </div>
+	<header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-3 col-lg-3 col-7 ">
+                        <div class="logo">Андрей Ковзало</div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-7 col-lg-9 offset-xxl-4 offset-xl-2 px-0 d-none d-lg-block">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Обо мне</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Кейсы</a></li>
+                                <li><a href="#">Прайс</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex justify-content-center flex-column align-items-end d-lg-none">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Меню
+                            </a>
 
-    <div class="mycontact">
-    	<div class="mycontact_conteiner">
-    		<div class="mycontact_item_h">
-    			<h2>Мои контакты</h2>
-    			<hr>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p>
-    		</div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                                <li><a class="dropdown-item" href="#">Услуги</a></li>
+                                <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                                <li><a class="dropdown-item" href="#">Прайс</a></li>
+                                <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    		<div class="adress">
-    			<div class="adress_conteiner">
-    			<div class="adress_item">
-    			<img src="img/home.png">
-    			<p>Kokkola Oravankatu 7d</p>
-    		</div>
+	<div class="main">
+		<div class="conteiner h-100">
+			<div class="row aling-items-end">
+				<div class="col-lg-6 mt-5 pt-5">
+					<div class="title_conteiner mt-5">
+			<h1>Привет <br>Я Андрей Ковзало</h1>
+			<h4 contenteditable="true">Фулл стек веб-разаботчик</h4>
+			<input type="button" value="Обо мне">
+			<input type="button" value="Мои работы">
+		</div></div></div></div>
+		
+	</div>
 
-    		<div class="adress_item">
-    			<img src="img/message.png">
-    			<p>https://www.youtube.com</p>
-    		</div>
-
-    		<div class="adress_item">
-    			<img src="img/call.png">
-    			<p>+3809999999999</p>
-    		</div>
-    		</div>
-    		<div class="clear"></div>
-    	</div>
-
-    		<div class="message">
-    			<div class="message_conteiner">
-    				<input class="button1" type="text" value="" placeholder="Имя">
-    				<input class="button2" type="text" value="" placeholder="Email">
-    				<input class="button3" type="text" value="" placeholder="Сообщение">
-    				<input class="button4" type="submit" value="Отправить">
-    			</div>
-    		</div>
-
-    	</div>
-    </div>
+	
+<script src="js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
