@@ -2,54 +2,70 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Это моя первая страница">
-	<meta name="robots" content="all">
-
-	<title>Андрей Ковзало</title>
-
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/myAnimation.css">
-
+    <meta charset="UTF-8">
+    <meta name="description" content="Это моя первая страница...">
+    <meta name="author" content="Andrey">
+    <meta name="robots" content="all">
+    <meta property="og:title" content="Это моя первая страница...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Андрей Ковзало</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/myAnimation.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-3 col-lg-3 col-7 ">
+                        <div class="logo">Андрей Ковзало</div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-7 col-lg-9 offset-xxl-4 offset-xl-2 px-0 d-none d-lg-block">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Обо мне</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Кейсы</a></li>
+                                <li><a href="#">Прайс</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex justify-content-center flex-column align-items-end d-lg-none">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Меню
+                            </a>
 
-	<header>
-		<nav>
-			<div class="conteiner">
-				<div class="row">
-					<div class="col-xxl-2 col-xl-3 col-lg-3 col-7">
-						<div class="logo">Андрей Ковзало</div>
-					</div>
-					<div class="col-6">
-						<div class="menu">
-							<ul>
-								<li><a href="#">Обо мне</a></li>
-								<li><a href="#">Услуги</a></li>
-								<li><a href="#">Кейсы</a></li>
-								<li><a href="#">Прайс</a></li>
-								<li><a href="#">Отзывы</a></li>
-								<li><a href="#">Контакты</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</nav>
-	</header>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                                <li><a class="dropdown-item" href="#">Услуги</a></li>
+                                <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                                <li><a class="dropdown-item" href="#">Прайс</a></li>
+                                <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 	<div class="main">
-		<div class="title_conteiner">
+		<div class="conteiner h-100">
+			<div class="row aling-items-end">
+				<div class="col-lg-6 mt-5 pt-5">
+					<div class="title_conteiner mt-5">
 			<h1>Привет <br>Я Андрей Ковзало</h1>
-			<h4>Фулл стек веб-разаботчик</h4>
+			<h4 contenteditable="true">Фулл стек веб-разаботчик</h4>
 			<input type="button" value="Обо мне">
 			<input type="button" value="Мои работы">
-		</div>
-	</div>
+		</div></div></div></div>
 
 	<div class="about_me">
 
@@ -83,7 +99,7 @@
 		   <div class="skills_item">
 		   	    <img src="img/rocket.png">
 		   	    <h3>СЕО-Оптимизация</h3>
-		   	    <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+		   	    <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus.</p>
 		   </div>
 
 		   <div class="skills_item">
@@ -222,13 +238,25 @@
 
     		<div class="message">
     			<div class="message_conteiner">
-    				<input class="button1" type="text" value="" placeholder="Имя">
-    				<input class="button2" id="email" type="email" autocomplete="on" required value="" placeholder="Email">
-    				<input class="button3" type="text" value="" placeholder="Сообщение">
-    				<input class="button4" type="submit" value="Отправить">
+    				<input class="field1" type="text" value="" placeholder="Имя">
+    				<input class="field2" id="email" type="email" autocomplete="on" required value="" placeholder="Email">
+    				<input class="field3" type="text" name="message" value="" placeholder="Сообщение">
+    				<input class="button" type="submit" value="Отправить">
     			</div>
     		</div>
+
+    		<div class="contacts_social">
+                    <a href="#"><img src="img/fb.png" alt=""></a>
+                    <a href="#"><img src="img/tvit.png" alt=""></a>
+                    <a href="#"><img src="img/bool.png" alt=""></a>
+                    <a href="#"><img src="img/kat.png" alt=""></a>
+                    <a href="#"><img src="img/inst.png" alt=""></a>
+                    <a href="#"><img src="img/in.png" alt=""></a>
+                    <div class="clear"></div>
+                </div>
     </div>
+
+    <script src="js/myScript.js"></script>
 
     
 </body>
